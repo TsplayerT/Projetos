@@ -1,0 +1,63 @@
+Nome
+Level
+Experiencia
+
+
+
+ATK
+DEF
+VIDA
+DEF
+AGILIDADE
+CONHECIMENTO
+
+Força 
+Constituição 
+Destreza 
+Agilidade 
+Inteligência 
+Força de Vontade
+Percepção 
+Carisma 
+
+Dano Físico
+Dano Mágico
+Proteção Física
+Proteção Mágica
+Inteligência
+Esquiva
+Acerto
+
+
+
+http://media.wizards.com/2016/downloads/DND/DMBasicRulesV05.pdf
+
+http://media.wizards.com/2016/downloads/DND/PlayerBasicRulesV03.pdf
+
+
+
+Humano
+elfo
+orc
+goblin
+gigante
+anão
+
+
+
+Guerreiro
+Clérigo
+Ladino
+Mago
+Monge
+Feiticeiro
+Druida
+Ranger
+Alquimista
+Bardo
+
+
+
+
+ Acerto: 16 - 
+Esquiva: 11 - 
