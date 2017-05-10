@@ -1,0 +1,28 @@
+
+                int valor0 = (int) (componenteB.getX() - componenteA.getX());
+                int valor1 = (int) (componenteB.getY() - componenteA.getY());
+                int valor2 = valor1 / valor0;
+                int valor3 = valor2 * (int) (valor0);
+                if (componenteB.getX() > componenteA.getX() && componenteB.getY() > componenteA.getY()) {
+                    componenteA.setLocation(componenteA.getX() + valor3, componenteA.getY() + 1);
+                    System.out.println(">>");
+                } else if (componenteB.getX() > componenteA.getX() && componenteB.getY() < componenteA.getY()) {
+                    System.out.println("><");
+                    componenteA.setLocation(componenteA.getX() + valor3, componenteA.getY() - 1);
+                } else if (componenteB.getX() < componenteA.getX() && componenteB.getY() > componenteA.getY()) {
+                    System.out.println("<>");
+                    componenteA.setLocation(componenteA.getX() - valor3, componenteA.getY() + 1);
+                } else if (componenteB.getX() < componenteA.getX() && componenteB.getY() < componenteA.getY()) {
+                    System.out.println("<<");
+                    componenteA.setLocation(componenteA.getX() - valor3, componenteA.getY() - 1);
+                } else if (componenteB.getX() == componenteA.getX() && componenteB.getY() < componenteA.getY()) {
+                    componenteA.setLocation(componenteA.getX(), componenteA.getY() - 1);
+                } else if (componenteB.getX() == componenteA.getX() && componenteB.getY() > componenteA.getY()) {
+                    componenteA.setLocation(componenteA.getX(), componenteA.getY() + 1);
+                } else if (componenteB.getX() < componenteA.getX() && componenteB.getY() == componenteA.getY()) {
+                    componenteA.setLocation(componenteA.getX() - 1, componenteA.getY());
+                } else if (componenteB.getX() > componenteA.getX() && componenteB.getY() == componenteA.getY()) {
+                    componenteA.setLocation(componenteA.getX() + 1, componenteA.getY());
+                }
+                pintarLinha((int) componenteB.getX(), (int) componenteB.getY(), (int) componenteA.getX(), (int) componenteA.getY());
+            
