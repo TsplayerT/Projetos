@@ -14,6 +14,8 @@ body{
 	font-family:monospace;
 }
 
+This is a generic overview of what education I have received
+
 <script type='text/javascript'>
 
 			Typer.speed=3;
